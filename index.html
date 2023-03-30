@@ -13,51 +13,73 @@
   <a id="to_top"></a>
   <header>
     <a class="logo" href="index.html">
-      <img src="assets/main_page/main_logo.png" alt="logo">
+      <img src="assets/main_page/main_logo_fin.png" alt="logo">
     </a>
 
     <nav>
       <ul>
-          <li><a href="#">Menu</a>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="work_page1.html">Work1</a></li>
-                  <li><a href="#">work2</a></li>
-                  <li><a href="#">work3</a></li>
-                  <li><a href="#info_jump">Contact</a></li>
-              </ul>
-          </li>
+        <li>
+          <!-- <a href="#">Menu</a> -->
+          <img class="menu_bar" src="assets/main_page/menu.png" alt="">
+          <ul>
+            <li>
+              <!-- <img class="menu_down_1" src="assets/main_page/menu_down_1.png" alt=""> -->
+              <a href="index.html">
+                Home
+                <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+              </a>
+            </li>
+            <li><a href="work_page1.html">Image
+              <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+            </a></li>
+            <li><a href="work_page2.html">Code
+              <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+            </a></li>
+            <li><a href="work_page3.html">Video
+              <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+            </a></li>
+            <li><a href="work_music.html">Music
+              <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+            </a></li>
+            <li><a href="work_page4.html">Physical
+              <img class="menu_down_2" src="assets/main_page/menu_down_2.png" alt="">
+            </a></li>
+
+          </ul>
+        </li>
       </ul>
-  </nav>
+    </nav>
     <!-- <a class="cta" href="#"><button>-</button></a> -->
   </header>
   <footer>
     <a class="to_top_button" href="#to_top">
-      Top
     </a>
   </footer>
   <main>
 
-    <div class="section1">
-      <div class="disk1">
-        <a href="work_page1.html">
+    <div id ="section1">
+      <a href="#info_jump">
+        <img id="allkustom_logo" src="assets/main_page/allkustom_logo.gif" alt="display logo">
+      </a> 
+      <div class="disk1"  onclick="animation1()" onmouseover="animation1BasicOn()" onmouseout="animation1BasicOff()">
           <img src="assets/main_page/disk_1.png">
-        </a>
       </div>
-      <div class="disk2">
+      <div class="disk2" onclick="animation2()" onmouseover="animation2BasicOn()" onmouseout="animation2BasicOff()">
         <img src="assets/main_page/disk_2.png" alt="disk_2 image">
       </div>
-      <div class="videoTape">
+      <div class="videoTape" onclick="animation3()" onmouseover="animation3BasicOn()" onmouseout="animation3BasicOff()">
         <img src="assets/main_page/video_tape.png" alt="video tape image">
       </div>
-      <div class="cassetteTape">
+      <div class="cassetteTape" onclick="animation4()" onmouseover="animation4BasicOn()" onmouseout="animation4BasicOff()">
         <img src="assets/main_page/cassette_tape.png" alt="cassette tape image">
       </div>
-
-      <div class="iso_big">
-        allkustom
+      <div class="key" onclick="animation5()" onmouseover="animation5BasicOn()" onmouseout="animation5BasicOff()">
+        <img src="assets/main_page/key.png" alt="key">
       </div>
-      <img class="allkustom_logo" src="assets/main_page/allkustom_logo.png" alt="display logo">
+
+      <!-- <div class="iso_big">
+        allkustom
+      </div> -->
 
 
 
@@ -71,20 +93,35 @@
 
     </div>
 
-    <div class="section2" id="info_jump"> 
+    <div class="section2" id="info_jump">
       <div class="info">
-        Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation
-        Infomation
+        <h2>
+          allkustom
+        </h2>
+        <p2>
+          Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation
+          Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation
+          Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation Infomation 
+        </p2>
+      </div>
+
+      <div class="contact">
+        <div class="youtube">
+          <a href="https://www.youtube.com/channel/UC5QXCQQk3PJFhVzmZYa08QQ"  target=”_blank”>
+            <img src="assets/main_page/youtube_logo.png" alt="">
+          </a>
+        </div>
+        <div class="insta">
+          <a href="https://www.instagram.com/allkustom_minkyu/"  target=”_blank”>
+            <img src="assets/main_page/insta_logo.png" alt="">
+          </a>
+        </div>
       </div>
     </div>
 
   </main>
 
 </body>
-<section1>
-
-</section1>
 
 </html>
 
-<!--onmouseover="disk1Change1()" onmouseout="disk1Change2()" id="disk1go" -->
